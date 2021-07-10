@@ -1,0 +1,51 @@
+/*#35523a*/
+/*#9e2a2b*/
+/* #051F20*/
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#nav-background-color {
+    background-color: #f6f6f6;
+
+}
+
+#nav-background-color a {
+    color: #051F20;
+}
+
+
+#header-container Nav Nav.Link a {
+    color: red;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #051F20;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    color: #051F20;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-toggler {
+    background-color: #051F20;
+}
+
+
+
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 600px){
+
+    .background-image {
+        background-image: url('../img/landing.jpg');
+        background-size: cover;
+        background-position: center, center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+}

@@ -1,0 +1,27 @@
+.footer-container {
+    position: static;
+    bottom: 0;
+    left: 0;
+    color: #f6f6f6;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+
+}
+
+.footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer p {
+    color: #051F20;
+}
+
+.footer a i {
+    margin: 3px;
+    color: #051F20
+}
+
+.footer a i:hover {
+    transform: scale(1.1);
+}
