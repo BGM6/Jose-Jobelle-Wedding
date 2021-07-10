@@ -1,6 +1,8 @@
+import '../css/style.css'
+import '../css/mobile.css'
 import React from 'react';
 import background from '../img/landing.jpg'
-import '../css/style.css'
+
 const Landing = () => {
 	return(
 		<div className="background-image"

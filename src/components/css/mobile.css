@@ -1,0 +1,22 @@
+/*Big smartphones [426px -> 600px]*/
+@media only screen and (max-width: 736px){
+
+    .background-image {
+        background-image: url('../img/landing.jpg');
+        background-size: cover;
+        background-position: center, center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #nav-background-color a {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+
+}
