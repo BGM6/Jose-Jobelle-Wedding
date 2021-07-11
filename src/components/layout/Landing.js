@@ -12,6 +12,7 @@ const Landing = () => {
 					 backgroundRepeat: 'no-repeat',
 					 backgroundSize: 'cover',
 					 height: '100vh',
+					 opacity: 0.9
 				 }}
 		>
 			<Timer/>

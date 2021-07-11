@@ -1,5 +1,5 @@
 /*Big smartphones [426px -> 600px]*/
-@media only screen and (max-width: 736px){
+@media only screen and (max-width: 736px) {
 
     .background-image {
         background-image: url('../img/landing.jpg');
@@ -19,8 +19,24 @@
     }
 
     #photos {
-        margin-top: 1rem;
+        margin-top: 5rem;
         width: 95%;
+    }
+
+    /*Groomsmen*/
+    #groomsmen-container {
+    }
+
+    .card-img, .card-img-top {
+        margin: 0;
+        padding: 3px;
+    }
+
+    h5, .h5 {
+        font-size: 1rem;
+    }
+    .card-text {
+        font-size: 12px;
     }
 
 }
