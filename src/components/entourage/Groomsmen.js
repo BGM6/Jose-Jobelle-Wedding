@@ -40,7 +40,7 @@ const Groomsmen = () => {
 					</Card>
 				</CardGroup>
 			</div>
-			<br />
+			<p>{""}</p>
 			<div>
 				<CardGroup>
 					<Card>
@@ -77,7 +77,6 @@ const Groomsmen = () => {
 					</Card>
 				</CardGroup>
 			</div>
-
 		</div>
 	);
 };

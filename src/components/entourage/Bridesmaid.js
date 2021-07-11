@@ -39,7 +39,7 @@ const Bridesmaid = () => {
 					</Card>
 				</CardGroup>
 			</div>
-			<br/>
+			<p>{""}</p>
 			<div>
 				<CardGroup>
 					<Card>
