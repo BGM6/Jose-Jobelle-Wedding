@@ -34,7 +34,6 @@ const Bridesmaid = () => {
 							<Card.Title>Card title</Card.Title>
 							<Card.Text>
 								This is a wider card with supporting text below as a natural lead-in to
-
 							</Card.Text>
 						</Card.Body>
 					</Card>

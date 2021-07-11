@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/style.css';
 import React from 'react';
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
 
