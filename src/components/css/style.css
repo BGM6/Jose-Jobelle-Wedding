@@ -1,11 +1,8 @@
-/*#35523a*/
-/*#9e2a2b*/
-/* #051F20*/
 
 body {
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
 }
+
 
 #nav-background-color {
     background-color: #f6f6f6;
@@ -23,16 +20,29 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #051F20;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .navbar-brand {
     color: #051F20;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .navbar-dark .navbar-toggler {
     background-color: #051F20;
 }
 
+/*Our Story*/
 
+#card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/*Photos*/
+
+#photos {
+    margin-top: 1rem;
+    width: 60%;
+}

@@ -1,17 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import '../css/style.css'
+import '../css/style.css';
 import React from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import {LinkContainer} from 'react-router-bootstrap';
+
 
 const Header = () => {
 	return (
-		<div>
-			<Navbar id="nav-background-color" collapseOnSelect expand="lg"  variant="dark">
-				<Navbar.Brand href="#home"><i className="fas fa-hashtag fa-2x"/>withLoveJose&Jobelle</Navbar.Brand>
+			<Navbar id="nav-background-color" collapseOnSelect expand="lg" variant="dark" >
+				<LinkContainer to="/">
+					<Navbar.Brand href="#home"><i className="fas fa-hashtag fa-2x"/>withLoveJose&Jobelle</Navbar.Brand>
+				</LinkContainer>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
-
 					</Nav>
 					<Nav>
 						<NavDropdown title="Entourage" id="collapsible-nav-dropdown">
@@ -28,19 +30,30 @@ const Header = () => {
 							{/*<NavDropdown.Item href="#action/3.3">Jenna Rae Green</NavDropdown.Item>*/}
 							{/*<NavDropdown.Item href="#action/3.3">Stephanie Hernandez</NavDropdown.Item>*/}
 							{/*<NavDropdown.Divider/>*/}
-							<NavDropdown.Item href="#action/3.4">Groomsmen</NavDropdown.Item>
+							<LinkContainer to="/groomsmen">
+							<NavDropdown.Item>Groomsmen</NavDropdown.Item>
+							</LinkContainer>
+							<LinkContainer to="/bridesmaid">
 							<NavDropdown.Item href="#action/3.4">Bridesmaid</NavDropdown.Item>
+							</LinkContainer>
 							<NavDropdown.Item href="#action/3.4">The Parents</NavDropdown.Item>
 							<NavDropdown.Item href="#action/3.4">Ring Bearers & Flower Girls</NavDropdown.Item>
 						</NavDropdown>
-						<Nav.Link href="#deets">Our Story</Nav.Link>
-						<Nav.Link href="#deets">Photos</Nav.Link>
-						<Nav.Link href="#deets">Gifts</Nav.Link>
-						<Nav.Link href="#deets">When/Where</Nav.Link>
+						<LinkContainer to="/ourstory">
+							<Nav.Link>Our Story</Nav.Link>
+						</LinkContainer>
+						<LinkContainer to="/photos">
+							<Nav.Link >Photos</Nav.Link>
+						</LinkContainer>
+						<LinkContainer to="/gifts">
+							<Nav.Link >Gifts</Nav.Link>
+						</LinkContainer>
+						<LinkContainer to="/details">
+							<Nav.Link >When/Where</Nav.Link>
+						</LinkContainer>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-		</div>
 	);
 };
 

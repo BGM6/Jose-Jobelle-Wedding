@@ -1,12 +1,15 @@
-import '../css/mobile.css'
+import '../css/mobile.css';
 import '../css/footer.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 
 const Footer = () => {
 	return (
-		<div className="footer-container">
-			<div className="footer">
+		<React.Fragment>
+			<div className="wrapper">
+			</div>
 
+			<div className="footer">
 				<a href="https://github.com/BGM6" target="_blank" rel="noreferrer"><i
 					className="fab fa-github"/></a>
 				<a href="https://www.linkedin.com/in/bryan-guilas-9a00891ab/" target="_blank" rel="noreferrer"><i
@@ -17,7 +20,7 @@ const Footer = () => {
 					className="fas fa-id-card"/></a>
 				<p>Copyright &copy; 2021 Bryan Guilas</p>
 			</div>
-		</div>
+		</React.Fragment>
 	);
 };
 
