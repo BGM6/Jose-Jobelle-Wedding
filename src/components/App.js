@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {Container} from 'react-bootstrap'
 import Header from './layout/Header';
 import Landing from './layout/Landing';
 import Footer from './layout/Footer';
@@ -13,10 +14,11 @@ import Bridesmaid from '../components/entourage/Bridesmaid';
 
 const App = () => {
 	return (
-		<Fragment>
+		<Fragment>>
 				<Router>
 					<Header/>
 					<Route exact path="/" component={Landing}/>
+					<Container>
 					<div style={{padding: '1rem'}}>
 						<Route exact path="/ourstory" component={OurStory}/>
 					</div>
@@ -30,6 +32,8 @@ const App = () => {
 					<Route exact path="/details" component={WhereWhen}/>
 					<Route exact path="/groomsmen" component={Groomsmen}/>
 					<Route exact path="/bridesmaid" component={Bridesmaid}/>
+					</Container>
+
 				</Router>
 				<Footer/>
 		</Fragment>

@@ -37,15 +37,15 @@ const Timer = () => {
 			clearInterval(interval.current);
 		};
 	},);
+	// <span><i className="fas fa-hourglass-start"/></span>
 
 	return (
 		<section className="timer-container">
 			<section className="timer">
 				<div>
-					{/*<h2>Countdown Timer</h2>*/}
-					<p><span><i className="fas fa-hourglass-start"/></span>Countdown to November 12, 2022</p>
+					<p>November 12, 2022</p>
 				</div>
-				<div>
+				<div className="timer-box">
 					<section>
 						<p>{timerDays}</p>
 						<p><small>Days</small></p>
@@ -58,12 +58,12 @@ const Timer = () => {
 					<span>:</span>
 					<section>
 						<p>{timerMinutes}</p>
-						<p><small>Minutes</small></p>
+						<p><small>Mins</small></p>
 					</section>
 					<span>:</span>
 					<section>
 						<p>{timerSeconds}</p>
-						<p><small>Seconds</small></p>
+						<p><small>Secs</small></p>
 					</section>
 				</div>
 			</section>

@@ -26,6 +26,7 @@
     /*Groomsmen*/
     #groomsmen-container {
         padding: 2rem;
+        margin-top: 0;
     }
 
     .card-img, .card-img-top {
@@ -38,6 +39,12 @@
     }
     .card-text {
         font-size: 12px;
+    }
+
+    .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+         padding-right: 0;
+         padding-left: 0;
+
     }
 
 /*Footer*/
