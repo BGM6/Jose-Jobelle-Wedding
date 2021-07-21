@@ -9,7 +9,7 @@ const Header = () => {
 	return (
 			<Navbar id="nav-background-color" collapseOnSelect expand="lg" variant="dark" fixed="top" >
 				<LinkContainer to="/">
-					<Navbar.Brand href="#home"><i className="fas fa-hashtag fa-2x"/>withLoveJose&Jobelle</Navbar.Brand>
+					<Navbar.Brand href="#home"><i className="fas fa-hashtag fa-2x"/>withLoveJoseAndJobelle</Navbar.Brand>
 				</LinkContainer>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 				<Navbar.Collapse id="responsive-navbar-nav">

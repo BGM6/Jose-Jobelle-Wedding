@@ -1,8 +1,6 @@
 
 body {
-    background: #606c88; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #051F20;
 }
 
 
@@ -18,7 +16,6 @@ body {
 
 
 #header-container Nav Nav.Link a {
-    color: red;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -32,7 +29,7 @@ body {
 }
 
 .navbar-dark .navbar-toggler {
-    background-color: #3f4c6b;
+    background-color: #051F20;;
 }
 
 /*Our Story*/
@@ -40,13 +37,13 @@ body {
 #card-container {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 /*Photos*/
 
 #photos {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 90%;
 }
 /*Groomsmen & Bridesmaid*/
