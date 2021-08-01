@@ -5,7 +5,7 @@ const WhereWhen = () => {
 	const location = {
 		address: '8500 Clubhouse Dr., Pleasanton, CA 94566',
 		lat: 37.62,
-		lng: -121.86
+		lng: -121.87
 	};
 
 	return (
