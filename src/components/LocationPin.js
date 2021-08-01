@@ -1,4 +1,4 @@
-import '../../src/components/css/map.css';
+import '../components/css/map.css'
 import React from 'react';
 import locationIcon from '@iconify/icons-mdi/map-marker';
 import {Icon} from '@iconify/react';

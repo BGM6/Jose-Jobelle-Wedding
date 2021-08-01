@@ -9,8 +9,6 @@ const WhereWhen = () => {
 		lng: -121.85
 	};
 
-
-
 	return (
 		<div>
 			<GoogleMap
