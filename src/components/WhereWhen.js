@@ -1,11 +1,22 @@
 import React from 'react';
+import GoogleMap from './GoogleMap';
 
 const WhereWhen = () => {
-	return(
+
+	const location = {
+		address: '8500 Clubhouse Dr., Pleasanton, CA 94566',
+		lat: 37.62,
+		lng: -121.86
+	};
+
+	return (
 		<div>
-			<h1>Where When</h1>
+			<GoogleMap
+			location={location}
+			zoomLevel={11}
+			/>
 		</div>
 	);
-}
+};
 
 export default WhereWhen;
