@@ -10,10 +10,10 @@ const WhereWhen = () => {
 
 	return (
 		<div>
-			<GoogleMap
-				location={location}
-				zoomLevel={11}
-			/>
+			{/*<GoogleMap*/}
+			{/*	location={location}*/}
+			{/*	zoomLevel={11}*/}
+			{/*/>*/}
 		</div>
 	);
 };
