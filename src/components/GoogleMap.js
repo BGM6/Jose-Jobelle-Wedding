@@ -6,8 +6,7 @@ import LocationPin from './LocationPin';
 const GoogleMap = ({location, zoomLevel}) => {
 
 	return (
-		<div style={{height: '75vh', width: '100%', marginTop: '4rem'}}
-				 className="google-map"
+		<div id="google-map"
 		>
 			<GoogleMapReact
 				bootstrapURLKeys={{key: "AIzaSyBj8QqoD-u9Te7ivK-Dv5H2BMolKH8ZTKk"}}

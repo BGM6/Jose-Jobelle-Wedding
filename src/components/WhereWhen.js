@@ -9,7 +9,7 @@ const WhereWhen = () => {
 	};
 
 	return (
-		<div>
+		<div className="map-container">
 			<GoogleMap
 				location={location}
 				zoomLevel={11}
