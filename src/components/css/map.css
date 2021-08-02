@@ -25,6 +25,7 @@
 .pin-icon {
     font-size: 4rem;
 }
+
 .pin-text {
     border-radius: 15px;
     font-size: 1.3em;
@@ -32,14 +33,11 @@
     padding: 10px;
 }
 
-@media only screen and (max-width: 736px){
-    #google-map {
-        height: 100vh;
-    }
-
+@media only screen and (max-width: 736px) {
     .map-container {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 1rem;
+        height: 50vh;
+        padding: 1rem;
     }
 
     .map-h2 {
@@ -53,5 +51,13 @@
 
     .pin-icon {
         font-size: 10vw;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .map-container {
+        margin-top: 0.6rem;
+        height: 50vh;
+        padding: 1rem;
     }
 }
