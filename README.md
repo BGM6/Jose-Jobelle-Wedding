@@ -5,7 +5,9 @@ URL: https://josejobellewedding.herokuapp.com/
 #About
 
 This website was created for Jose and Jobelle's upcoming wedding celebration. 
-I had designed the website with a mobile first approach. I had considered that a majority of the users will view the site with their mobile devices.
+I had designed the website with a mobile first approach in an atticipation that a 
+majority of the users will view the site with their mobile devices. The website primarly utilizes 
+React and Bootstrap and deployed through Heroku.
     
     #Technology
     React
