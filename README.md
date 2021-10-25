@@ -1,4 +1,4 @@
-# Jose-Jobelle-Wedding
+# Jose & Jobelle Wedding Website
 
 URL: https://josejobellewedding.herokuapp.com/
 
