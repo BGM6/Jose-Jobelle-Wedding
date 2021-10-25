@@ -20,10 +20,10 @@ React and Bootstrap and is deployed through Heroku.
     Axios
     FontAwesome
 
-![alt text](screenShot/screenShot1.JPG "HTML Screenshot")
-![alt text](screenShot/screenShot2.JPG "HTML Screenshot")
-![alt text](screenShot/screenShot3.JPG "HTML Screenshot")
-![alt text](screenShot/screenShot4.JPG "HTML Screenshot")
+![alt text](screenShot/screenShot1.jpg "HTML Screenshot")
+![alt text](screenShot/screenShot2.jpg "HTML Screenshot")
+![alt text](screenShot/screenShot3.jpg "HTML Screenshot")
+![alt text](screenShot/screenShot4.jpg "HTML Screenshot")
 #Author
 Bryan Guilas
 
