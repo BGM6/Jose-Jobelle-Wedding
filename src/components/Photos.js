@@ -8,7 +8,7 @@ const Photos = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://images.unsplash.com/photo-1604537466573-5e94508fd243?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1629777681/YelpCamp/test/DSCF2352_i24uco.jpg"
 						alt="First slide"
 					/>
 					<Carousel.Caption>
