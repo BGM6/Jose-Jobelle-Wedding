@@ -11,11 +11,11 @@ const Bridesmaid = () => {
 				<CardGroup>
 					<Card>
 						<Card.Img variant="top"
-											src="https://images.unsplash.com/photo-1551792714-9a8b35338793?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1940&q=80"/>
+											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636921771/JobelleJosePhotos/IMG_8446_i6leei.jpg"/>
 						<Card.Body>
-							<Card.Title>Card title</Card.Title>
+							<Card.Title>Joyceee AKA Trash Mom</Card.Title>
 							<Card.Text>
-								This is a wider card with supporting text below as a natural lead-in to
+								<h3>You're in love we get it!!! GAWD!!!!</h3>
 							</Card.Text>
 						</Card.Body>
 					</Card>
