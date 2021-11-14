@@ -8,15 +8,21 @@ const Photos = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855260/JoseAndJobelleWedding/DSCF2555_dpgccz.jpg"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919011/JobelleJosePhotos/DSCF2560_r8zea7.jpg"
 						alt="First slide"
 					/>
-
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855674/JoseAndJobelleWedding/DSCF2586_rridht.jpg"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919012/JobelleJosePhotos/DSCF2555_t5kz99.jpg"
+						alt="First slide"
+					/>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919012/JobelleJosePhotos/DSCF2573_nlrphw.jpg"
 						alt="Second slide"
 					/>
 
@@ -24,7 +30,7 @@ const Photos = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855696/JoseAndJobelleWedding/DSCF2609_ifye1b.jpg"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919015/JobelleJosePhotos/DSCF2577_j2p7oa.jpg"
 						alt="Third slide"
 					/>
 				</Carousel.Item>
@@ -32,7 +38,7 @@ const Photos = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855327/JoseAndJobelleWedding/DSCF2617_rkvzvp.jpg"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919014/JobelleJosePhotos/DSCF2586_tjz84r.jpg"
 						alt="Fourth slide"
 					/>
 				</Carousel.Item>
@@ -40,7 +46,7 @@ const Photos = () => {
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636856077/JoseAndJobelleWedding/DSCF2573_qxet9s.jpg"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919017/JobelleJosePhotos/DSCF2617_z3oqto.jpg"
 						alt="Fifth slide"
 					/>
 				</Carousel.Item>

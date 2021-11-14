@@ -8,7 +8,7 @@ const OurStory = () => {
 			<Card style={{ width: '45rem', marginTop: '2rem' }}>
 				<Card.Img
 					variant="top"
-					src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855053/JoseAndJobelleWedding/DSCF2601_miet3a.jpg"
+					src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636919015/JobelleJosePhotos/DSCF2601_artboz.jpg"
 				/>
 				<Card.Body>
 					<Card.Title>Our Story</Card.Title>
