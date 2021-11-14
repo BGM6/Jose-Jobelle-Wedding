@@ -2,47 +2,51 @@ import React from 'react';
 import {Carousel} from 'react-bootstrap';
 
 const Photos = () => {
-	return(
+	return (
 		<div id="photos">
 			<Carousel fade>
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1629777681/YelpCamp/test/DSCF2352_i24uco.jpg"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855260/JoseAndJobelleWedding/DSCF2555_dpgccz.jpg"
 						alt="First slide"
 					/>
-					<Carousel.Caption>
-						<h3>First slide label</h3>
-						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-					</Carousel.Caption>
+
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855674/JoseAndJobelleWedding/DSCF2586_rridht.jpg"
 						alt="Second slide"
 					/>
 
-					<Carousel.Caption>
-						<h3>Second slide label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
 						className="d-block w-100"
-						src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80a"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855696/JoseAndJobelleWedding/DSCF2609_ifye1b.jpg"
 						alt="Third slide"
 					/>
+				</Carousel.Item>
 
-					<Carousel.Caption>
-						<h3>Third slide label</h3>
-						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-					</Carousel.Caption>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636855327/JoseAndJobelleWedding/DSCF2617_rkvzvp.jpg"
+						alt="Fourth slide"
+					/>
+				</Carousel.Item>
+
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636856077/JoseAndJobelleWedding/DSCF2573_qxet9s.jpg"
+						alt="Fifth slide"
+					/>
 				</Carousel.Item>
 			</Carousel>
 		</div>
 	);
-}
+};
 
 export default Photos;
