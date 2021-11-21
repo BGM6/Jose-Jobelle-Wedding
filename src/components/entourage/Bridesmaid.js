@@ -7,33 +7,47 @@ const Bridesmaid = () => {
 			<div>
 			</div>
 			<p>{''}</p>
-			<div>
-				<CardGroup>
-					<Card>
+			<div >
+				<CardGroup >
+					<Card style={{margin: '0.5rem'}}>
 						<Card.Img variant="top"
-											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1636921771/JobelleJosePhotos/IMG_8446_i6leei.jpg"/>
+											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0676_qbofge.jpg"/>
 						<Card.Body>
 							<Card.Title>Joyceee AKA Trash Mom</Card.Title>
 							<Card.Text>
-								<h3>You're in love we get it!!! GAWD!!!!</h3>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut laboriosam odit pariatur
+								repellat soluta. Accusamus ipsa iste, iure minus quibusdam vitae. Ad, aliquid earum exercitationem
+								perspiciatis quisquam ullam voluptatem.
 							</Card.Text>
 						</Card.Body>
 					</Card>
 
-					<Card>
+					<Card style={{margin: '0.5rem'}}>
 						<Card.Img variant="top"
-											src="https://images.unsplash.com/photo-1587228270774-db416ee48ea6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"/>
+											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0677_zmgnsj.jpg"/>
 						<Card.Body>
 							<Card.Title>Card title</Card.Title>
 							<Card.Text>
-								This card has supporting text below as a natural lead-in to additional
-								content.{' '}
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis illo nemo officiis placeat quam.
+								Aliquid asperiores explicabo fugiat veritatis. Atque consectetur corporis ducimus error fuga sit veniam
+								veritatis vitae!
+							</Card.Text>
+						</Card.Body>
+					</Card>
+					<Card style={{margin: '0.5rem'}}>
+						<Card.Img variant="top"
+											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0679_zzyahv.jpg"/>
+						<Card.Body>
+							<Card.Title>Card title</Card.Title>
+							<Card.Text>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores consequatur cum, debitis
+								dolores earum enim fugiat ipsam iusto laboriosam molestias odit, omnis repellendus sint temporibus. Eum
+								qui quidem repellat.
 							</Card.Text>
 						</Card.Body>
 					</Card>
 				</CardGroup>
 			</div>
-
 		</div>
 	);
 };

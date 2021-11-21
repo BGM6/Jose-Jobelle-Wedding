@@ -46,11 +46,13 @@ body {
     margin-top: 2rem;
     width: 90%;
 }
+
 /*Groomsmen & Bridesmaid*/
 
 
 #groomsmen-container {
     padding: 4rem;
+    margin-bottom: 1rem;
 }
 
 .card-img, .card-img-top {
@@ -172,6 +174,4 @@ section p:first-child, .timer div:last-child span {
     .timer {
         background-color: rgba(0, 0, 0, 0);
     }
-
-
 }

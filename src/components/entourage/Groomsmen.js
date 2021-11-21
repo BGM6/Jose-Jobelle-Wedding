@@ -9,25 +9,27 @@ const Groomsmen = () => {
 			<p>{''}</p>
 			<div>
 				<CardGroup>
-					<Card>
+					<Card style={{margin: '0.5rem'}}>
 						<Card.Img variant="top"
-											src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"/>
+											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0678_xmkpfq.jpg"/>
 						<Card.Body>
 							<Card.Title>Card title</Card.Title>
 							<Card.Text>
-								This card has supporting text below as a natural lead-in to additional
-								content.{' '}
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis deserunt dolor enim error et
+								inventore ipsa ipsam natus pariatur placeat, praesentium quod rem sequi soluta suscipit temporibus
+								voluptas voluptatem?
 							</Card.Text>
 						</Card.Body>
 					</Card>
-					<Card>
+					<Card style={{margin: '0.5rem'}}>
 						<Card.Img variant="top"
 											src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80"/>
 						<Card.Body>
 							<Card.Title>Card title</Card.Title>
 							<Card.Text>
-								This is a wider card with supporting text below as a natural lead-in to
-
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium doloribus, maxime nisi nobis
+								perferendis recusandae. Aliquid, beatae distinctio eaque et facere fugiat maiores modi neque numquam
+								porro repellendus sed totam.
 							</Card.Text>
 						</Card.Body>
 					</Card>
