@@ -27,7 +27,7 @@ const Bridesmaid = () => {
 						<Card.Img variant="top"
 											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0679_zzyahv.jpg"/>
 						<Card.Body>
-							<Card.Title>Matron of Honor <p>Venisa Marie Gagui</p></Card.Title>
+							<Card.Title className="text-center">Matron of Honor <p>Venisa Marie Gagui</p></Card.Title>
 							<Card.Text>
 								Ate Venisa is a bonus girl cousin married into the family. Honestly cannot rememeber when they first met
 								because it was so long ago but they instanlty became close. Many memories made through out the years.
