@@ -45,9 +45,9 @@ const Header = () => {
 						<LinkContainer to="/photos">
 							<Nav.Link >Photos</Nav.Link>
 						</LinkContainer>
-						<LinkContainer to="/gifts">
-							<Nav.Link >Gifts</Nav.Link>
-						</LinkContainer>
+						{/*<LinkContainer to="/gifts">*/}
+						{/*	<Nav.Link >Gifts</Nav.Link>*/}
+						{/*</LinkContainer>*/}
 						<LinkContainer to="/details">
 							<Nav.Link >When/Where</Nav.Link>
 						</LinkContainer>

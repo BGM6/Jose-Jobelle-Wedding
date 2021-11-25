@@ -8,7 +8,6 @@ import Footer from './layout/Footer';
 import OurStory from './OurStory';
 import Photos from './Photos';
 import WhereWhen from './WhereWhen';
-import Gifts from './Gifts';
 import Groomsmen from '../components/entourage/Groomsmen';
 import Bridesmaid from '../components/entourage/Bridesmaid';
 
@@ -28,7 +27,7 @@ const App = () => {
 					}}>
 						<Route exact path="/photos" component={Photos}/>
 					</div>
-					<Route exact path="/gifts" component={Gifts}/>
+					{/*<Route exact path="/gifts" component={Gifts}/>*/}
 					<Route exact path="/details" component={WhereWhen}/>
 					<Route exact path="/groomsmen" component={Groomsmen}/>
 					<Route exact path="/bridesmaid" component={Bridesmaid}/>
