@@ -7,30 +7,19 @@ const Bridesmaid = () => {
 			<div>
 			</div>
 			<p>{''}</p>
-			<div >
-				<CardGroup >
+			<div>
+				<CardGroup>
 					<Card style={{margin: '0.5rem'}}>
 						<Card.Img variant="top"
 											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0676_qbofge.jpg"/>
 						<Card.Body>
-							<Card.Title>Joyceee AKA Trash Mom</Card.Title>
+							<Card.Title className="text-center">Maid of honor <p>Beverly Joyce Guilas</p></Card.Title>
 							<Card.Text>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut laboriosam odit pariatur
-								repellat soluta. Accusamus ipsa iste, iure minus quibusdam vitae. Ad, aliquid earum exercitationem
-								perspiciatis quisquam ullam voluptatem.
-							</Card.Text>
-						</Card.Body>
-					</Card>
-
-					<Card style={{margin: '0.5rem'}}>
-						<Card.Img variant="top"
-											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0677_zmgnsj.jpg"/>
-						<Card.Body>
-							<Card.Title>Card title</Card.Title>
-							<Card.Text>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis illo nemo officiis placeat quam.
-								Aliquid asperiores explicabo fugiat veritatis. Atque consectetur corporis ducimus error fuga sit veniam
-								veritatis vitae!
+								Jobelle’s bestfriend, middle child of 3 & the most reliable child. Also known as Hayden & Emerson’s mom.
+								Beverly is like a second mom telling Jobelle how to live her life. Beverly is Jobelle’s one and only
+								sister so obviously she was going to be picked as the Maid of Honor of orginizing the up coming
+								shinanigans. Jobelle couldn’t of asked for a better ride or die/partner in crime honoring us with her
+								presence on her pecial day.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -38,11 +27,27 @@ const Bridesmaid = () => {
 						<Card.Img variant="top"
 											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0679_zzyahv.jpg"/>
 						<Card.Body>
-							<Card.Title>Card title</Card.Title>
+							<Card.Title>Matron of Honor <p>Venisa Marie Gagui</p></Card.Title>
 							<Card.Text>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores consequatur cum, debitis
-								dolores earum enim fugiat ipsam iusto laboriosam molestias odit, omnis repellendus sint temporibus. Eum
-								qui quidem repellat.
+								Ate Venisa is a bonus girl cousin married into the family. Honestly cannot rememeber when they first met
+								because it was so long ago but they instanlty became close. Many memories made through out the years.
+								The most nicest, down to earth and best person to be around. Jobelle couldn’t of asked for a better
+								cousin to be her Matron of honor and celebrate with on her wedding day.
+							</Card.Text>
+						</Card.Body>
+					</Card>
+					<Card style={{margin: '0.5rem'}}>
+						<Card.Img variant="top"
+											src="https://res.cloudinary.com/dncx7of7k/image/upload/v1637523871/JobelleJosePhotos/IMG_0677_zmgnsj.jpg"/>
+						<Card.Body>
+							<Card.Title className="text-center">Bridesmaid<p>Mary Guada Grace Naanep</p></Card.Title>
+							<Card.Text>
+								Guada and Jobelle met eachother alittle over 10 years ago in San Fernando, Pampanga Philippines at a
+								family party while Jobelle was on vacation. Seeing how thier first encounter was very awkward, they
+								never knew that they would get along and have the best friendship ever! Guada is also a bonus cousin who
+								she made many memories with throughout the years. Guada is a fun time , always smiling & happy go lucky
+								personality. Jobelle is so happy to be able to have one of her best friends/cousin celebrate with her on
+								her wedding day.
 							</Card.Text>
 						</Card.Body>
 					</Card>
