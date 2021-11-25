@@ -44,7 +44,7 @@ const Timer = () => {
 		<section className="timer-container">
 			<section className="timer">
 				<div>
-					<p>November 12, 2022</p>
+					<p>November 13, 2022</p>
 				</div>
 				<div className="timer-box">
 					<section>
