@@ -14,11 +14,10 @@ const OurStory = () => {
 					<Card.Title className="text-center">Our Story</Card.Title>
 					<Card.Text>
 						<p className="our-story-text">
-							The story of US
 							WE MET ONLINE BY CHANCE! After some talking with the plan of a first date that got cancelled, a semi
 							disastrous first date, some bribing of tacos and a trip to the zoo we finally took things a little more
 							serious and now here we are almost six years later on the verge of marriage with many memories and many
-							stories to tell about how we took a chance and about our many adventures together.</p>
+							stories to tell about how we took a chance and about our many adventures together. </p>
 
 						<div className="our-story-date text-center">
 							First Date: <p>January 29, 2016</p>
